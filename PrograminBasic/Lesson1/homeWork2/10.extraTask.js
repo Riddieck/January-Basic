@@ -2,6 +2,11 @@ function extraTask(a, b, c) {
     
     let isValid = 0;
 
+    // Теорема за неравенство на триъгълник
+    // a + b > c
+    // a + c > b
+    // b + c > a
+
     if (a + b > c && a + c > b && b + c > a) {
         isValid = true;
     } else {
