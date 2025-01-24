@@ -6,7 +6,7 @@ function lunchBreak(nameOfMovie, movieDuration, restDuration) {
     let leftTime = restDuration - lanchTime - restTime;
 
     if (movieDuration <= leftTime) {
-        console.log(`You have enough time to watch ${nameOfMovie} and left with ${Math.ceil(leftTime - movieDuration)} more minutes.`);
+        console.log(`You have enough time to watch ${nameOfMovie} and left with ${Math.ceil(leftTime - movieDuration)} minutes free time.`);
     } else {
         console.log(`You don't have enough time to watch ${nameOfMovie}, you need ${Math.ceil(movieDuration - leftTime)} more minutes.`);
     }
