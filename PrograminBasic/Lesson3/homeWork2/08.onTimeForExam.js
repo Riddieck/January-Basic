@@ -19,34 +19,29 @@ function examTime(examHour, examMinute, arrivalHour, arrivalMinute) {
         } else {
             console.log("Early");
         }
-        
+
         if (hours == 0) {
             console.log(`${minutes} minutes before the start`);
         } else {
             if (minutes < 10) {
-            console.log(`${hours}:0${minutes} hours before the start`);
+                console.log(`${hours}:0${minutes} hours before the start`);
             } else {
-            console.log(`${hours}:${minutes} hours before the start`);
+                console.log(`${hours}:${minutes} hours before the start`);
             }
         }
 
     } else if (arrivalTotalMinutes > examTotalMinutes) {
         console.log("Late");
-
         if (hours < 1) {
             console.log(`${minutes} minutes after the start`);
         } else {
             if (minutes < 10) {
-            console.log(`${hours}:0${minutes} hours after the start`);
+                console.log(`${hours}:0${minutes} hours after the start`);
             } else {
-            console.log(`${hours}:${minutes} hours after the start`);
+                console.log(`${hours}:${minutes} hours after the start`);
             }
         }
-       
-        
     }
-    console.log("---");
-    
 }
 examTime(9, 30, 9, 50);
 examTime(9, 00, 8, 30);
