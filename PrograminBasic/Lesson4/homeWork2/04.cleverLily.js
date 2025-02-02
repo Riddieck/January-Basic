@@ -10,7 +10,7 @@ function numbersEnding(ages, washerMachine, toyPrice) {
         if (i % 2 == 0) {
             money += 10;
             totalMoney += money;
-            brotherTax ++;
+            brotherTax++;
         } else {
             toyCount++;
         }
