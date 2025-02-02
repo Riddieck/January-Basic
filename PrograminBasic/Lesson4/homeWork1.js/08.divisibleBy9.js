@@ -11,7 +11,7 @@ function numbersDivisibleBy9(start, end) {
 
     // Отпечатваме сумата на числата
     console.log(`The sum: ${totalSum}`);
-    
+
     // Сега отпечатваме самите числа
     for (let num = start; num <= end; num++) {
         if (num % 9 === 0) {
@@ -19,4 +19,5 @@ function numbersDivisibleBy9(start, end) {
         }
     }
 
-}numbersDivisibleBy9(100, 200);
+}
+numbersDivisibleBy9(100, 200);
