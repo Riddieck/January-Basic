@@ -1,5 +1,5 @@
 function moving(arr) {
-    
+
     let box = 1;
     let l = Number(arr[0]);
     let w = Number(arr[1]);
@@ -7,8 +7,8 @@ function moving(arr) {
 
     let sum = 0
 
-    let totalSpace =  l * w * h;
-    
+    let totalSpace = l * w * h;
+
     let i = 3;
 
     while (arr[i] !== "Done" && i < arr.length) {
@@ -22,7 +22,7 @@ function moving(arr) {
 
         i++;
     }
-    
+
     if (arr[i] === "Done") {
         console.log(`${totalSpace - sum} Cubic meters left.`);
     }
