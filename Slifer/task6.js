@@ -24,4 +24,4 @@ function findValidNumber(n) {
 
     console.log("Nothing found");
 }
-findValidNumber(214);
+findValidNumber(123);

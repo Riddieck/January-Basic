@@ -4,4 +4,4 @@ function ops() {
     console.log(a);
     
 }
-ops(60)
+ops(60);
