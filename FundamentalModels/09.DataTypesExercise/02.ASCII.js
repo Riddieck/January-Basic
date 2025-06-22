@@ -8,6 +8,6 @@ function solve(a, b, c) {
     console.log(`${char3} ${char2} ${char1}`);
 
 }
-solve("a", "b", "c");
+//solve("a", "b", "c");
 solve("%", "2", "o");
-solve("1", "5", "p");
+//solve("1", "5", "p");
